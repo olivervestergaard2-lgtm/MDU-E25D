@@ -5,7 +5,7 @@ Her er en korrekt opsat projektmappe til websider. Kopier mappen boilerplate og 
 
 ## `index.html`
 
-Et webprojekt skal have en fil ved navn `index.html`. Projekter på første semester skal præsenteres ved hjælp af Github pages. Det fungerer kun, hvis `index.html` ligger i rodmappen.
+Et webprojekt skal have en fil ved navn `index.html`. Index-filen fungerer som en "forside". Projekter på første semester skal præsenteres ved hjælp af Github pages. Det fungerer kun, hvis `index.html` ligger i rodmappen.
 
 Siden viser, hvordan du linker til eksterne ressourcer:
 
