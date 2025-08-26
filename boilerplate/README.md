@@ -1,7 +1,16 @@
 # Boilerplate: HTML5, CSS og JavaScript
 
-Her er en korrekt opsat projektmappe til websider. Kopier mappen boilerplate og omdøb den til noget, som passer med dit projekt.
+Her er en korrekt opsat projektmappe til websider. Kopier mappen boilerplate og omdøb den til noget, som passer med dit projekt. Boilerplaten indeholder disse filer:
 
+~~~~
+│   ├── index.html
+│   ├── css
+│   │   └── css.css
+│   ├── images
+│   │   └── README.md
+│   ├── js
+│   │   └── js.js
+~~~~
 
 ## `index.html`
 
@@ -21,3 +30,4 @@ Indeholder projektets stylesheet. En webside kan bruge et eller flere stylesheet
 ## `./js/js.js`
 
 En webside kan bruge et eller flere JavaScripts. Dette script sender en besked i baggrunden til konsollen om at det er der. JavaScripts kan gøre netsider dynamiske. På første semester arbejdeer vi primært med scripts, der reagerer på brugerens klik og lignende. Det er en standard at JavaScript-filer har efternavnet `.js`
+
