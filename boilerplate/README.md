@@ -1,6 +1,8 @@
 # Boilerplate: HTML5, CSS og JavaScript
 
-Her er en korrekt opsat projektmappe til websider. Kopier mappen boilerplate og omdøb den til noget, som passer med dit projekt. Boilerplaten indeholder disse filer:
+Her er en korrekt opsat projektmappe til websider. Kopier mappen boilerplate og omdøb den til noget, som passer med dit projekt. 
+
+Boilerplaten indeholder disse filer:
 
 ~~~~
 │   ├── index.html
@@ -12,6 +14,7 @@ Her er en korrekt opsat projektmappe til websider. Kopier mappen boilerplate og 
 │   │   └── js.js
 ~~~~
 
+
 ## `index.html`
 
 Et webprojekt skal have en fil ved navn `index.html`. Index-filen fungerer som en "forside". Projekter på første semester skal præsenteres ved hjælp af Github pages. Det fungerer kun, hvis `index.html` ligger i rodmappen.
@@ -21,7 +24,7 @@ Siden viser, hvordan du linker til eksterne ressourcer:
 * Et stylesheet (css.css)
 * Et JavaScript (js.js)
 
-HTML-filer skal have efternavnet `.html`
+Et website består typisk af et antal html-filer, som navngives meningsfuldt i forhold til indholdet HTML-filer skal have efternavnet `.html` Alle dine HTML-filer kan bruge de(t) samme stylesheet(s) og script(s).
 
 ## `./css/css.css`
 
