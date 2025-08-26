@@ -12,10 +12,12 @@ Siden viser, hvordan du linker til eksterne ressourcer:
 * Et stylesheet (css.css)
 * Et JavaScript (js.js)
 
+HTML-filer skal have efternavnet `.html`
+
 ## `./css/css.css`
 
-Indeholder projektets stylesheet. En webside kan bruge et eller flere stylesheets.
+Indeholder projektets stylesheet. En webside kan bruge et eller flere stylesheets. CSS-filer bruges typisk af både forsiden og undersiderne. Det er almindeligt at have en særlig CSS til det overordnede layout og farver. Desuden kan du tilknytte særlige CSS'er til hver underside. Styleshets skal navngives så de slutter med `.css`
 
 ## `./js/js.js`
 
-En webside kan bruge et eller flere JavaScripts. Dette script sender en besked i baggrunden til konsollen om at det er der. JavaScripts kan gøre netsider dynamiske. På første semester arbejdeer vi primært med scripts, der reagerer på brugerens klik og lignende.
+En webside kan bruge et eller flere JavaScripts. Dette script sender en besked i baggrunden til konsollen om at det er der. JavaScripts kan gøre netsider dynamiske. På første semester arbejdeer vi primært med scripts, der reagerer på brugerens klik og lignende. Det er en standard at JavaScript-filer har efternavnet `.js`
