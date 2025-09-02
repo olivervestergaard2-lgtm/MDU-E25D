@@ -1,0 +1,118 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+/* Remove whitespace on top of certain browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font: sans serif */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Fonte */ 
+h1 {
+  color: rgb(226, 98, 6);
+}
+
+h2 {
+  color: forestgreen;
+}
+
+p {
+  color: rgb(200, 58, 179);
+}
+
+/* Billeder i 100% */
+img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Navigation */
+nav {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  background-color: black;
+}
+
+/* navigationslinks */
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: aqua;
+}
+
+/* Sætter størrelsen på logoet */
+nav img {
+  width: 117px;
+  height: 117px;
+}
+
+/* Hvordan du kan style en herosekstion */
+#hero {
+  /*background-color: aqua;*/
+  background-image: url('../images/hero.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero h1 {
+  color: #fff;
+  font-size: 5rem;
+}
+
+/* #CTA */
+/* Her skal teksten også centreres vertikalt og horisontalt */
+/* Giv bogstaverne en passende størrelse, farve og vælg en sans serif skrift */
+
+/* Footeren */
+/* Tilføj adresse og telefonnummer */
+
+/* Responsivt design */
+/* Tip: begynd altid med at style siderne så de fylder ud med 100%. Derefter kan du trin for trin eksperimentere med breakpoints som herunder. */
+
+/* Mobil (op til 600px) */
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  /* Her vil vi gerne have stemningsbillederne i tre kolonner til at lægge sig i en bunke  */
+  #stemning {
+    display: block;
+  }
+}
+
+/* Tablet (601px til 1024px) */
+/* Her er denne side nyttig:
+  https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+  */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    background-color: lightgreen;
+  }
+  /* Her vil vi gerne have stemningsbillederne i tre kolonner til at lægge sig i en bunke  */
+  /* Her vil vi gerne have de fire kolonner i tre kolonner til at lægge sig i en bunke  */
+}
+
+/* Desktop (fra 1025px og op) */
+@media (min-width: 1025px) {
+  body {
+    background-color: lightcoral;
+  }
+}
