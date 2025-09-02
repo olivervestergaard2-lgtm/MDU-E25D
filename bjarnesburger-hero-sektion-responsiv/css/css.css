@@ -1,0 +1,127 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+/* Remove whitespace on top of certain browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* skrifttype */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  /* skriftstørrelse */
+  font-size: 1.5rem;
+}
+
+/* Define variables in the :root */
+ 
+
+/* Use your variables on elements along these lines */
+/*
+:root {
+  --contrast: lime;
+  --backgr: #000;
+}
+
+--- You can use the variables like this ---
+
+ main {
+   color: var(--contrast);
+   background-color: var(--backgr);
+ }
+*/
+
+h1 {
+  color: rgb(254, 251, 249);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+  color: forestgreen;
+}
+
+p {
+  color: rgb(200, 58, 179);
+}
+
+/* Billeder i 100% */
+img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+#topNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(75, 8, 8);
+  color: #fff;
+  height: 34vh;
+}
+
+#topNav img {
+  width: 112px;
+  height: auto;
+}
+
+#topNav a {
+  color: rgb(189, 252, 194);
+}
+
+#topNav a:hover {
+  color: pink;
+}
+
+/* hero sektionen styles */
+header {
+  height: 100vh;
+  background-color: deeppink;
+
+  /* herobillede i baggrunden */
+  background-image: url('../images/hero.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+
+  /* Læg tekst i midten vertikalt og horisontalt */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* RESPONSIVT DESIGN */
+
+/* Mobile enheder */
+@media (max-width: 600px){
+  body {
+    background-color: aquamarine;
+  }
+  #stemning {
+    display:block;
+  }
+}
+
+/* Tablets, iPads, &c. */
+@media (min-width: 601px) and (max-width: 1024px){
+  body {
+    background-color: rgb(252, 21, 198);
+  }
+  #stemning {
+    display: block;
+  }  
+}
+
+
+
+
